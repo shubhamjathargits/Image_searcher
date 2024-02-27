@@ -1,0 +1,170 @@
+#gallery img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add border shadow */
+}
+#gallery{
+    height: 400px;
+    width: 670px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.search-container{
+   
+    height: 50px;
+    width: 600px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 320px;
+}
+#inp{
+    border-radius: 20px;
+    height: 40px;
+    width:500px;
+    padding: 5px;
+}
+button {
+    border-radius: 50%;
+    margin: 0 65px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add border shadow */
+    border: none;
+    height: 60px;
+    width: 60px;
+    background: #cae3f9; /* Faint blue background color */
+    cursor: pointer;
+    
+}
+button img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+   
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -130px;
+    
+}
+.button h4 {
+    margin: 0 10px; /* Add margin between button labels */
+    margin-top: 90px;
+    margin-left: -120px;
+    font-size: 14px; /* Adjust font size */
+    color: #666; /* Set faint coloring for text */
+}
+.search-container input[type="text"] {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Set color for text */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add border shadow */
+    background-color: #fff; /* Set background color */
+}
+    h1 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-size: 70px;
+        color: #051c36; /* Blue color */
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+       
+    }
+
+header{
+    margin-top: 120px;
+    margin-left: 270px;
+}
+.img1{
+    height: 30px;
+    width: 30px;
+    
+    margin-left: -100px;
+  
+   text-align: center;
+   
+}
+.im{
+    margin-top: -40px;
+    margin-left: 550px;
+}
+.name{
+    height: 40px;
+    width: 400px;
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    margin-left: 850px;
+    justify-content: space-evenly; /* Add space between flex items */
+    align-items: center; 
+
+}
+.name img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(54, 137, 238, 0.6);
+}
+#err{
+    color:red;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+@media only screen and (max-width: 480px) {
+    #gallery {
+        width: 90%; /* Adjust gallery width for smaller devices */
+        margin: 20px auto; /* Center gallery on smaller devices */
+    }
+    
+    .search-container {
+        width: 90%; /* Adjust search container width for smaller devices */
+        margin: 20px auto; /* Center search container on smaller devices */
+    }
+    
+    #inp {
+        width: 90%; /* Adjust input width for smaller devices */
+    }
+    
+    button {
+        margin: 0 10px; /* Adjust button margin for smaller devices */
+    }
+    
+    .button h4 {
+        margin-top: 10px; /* Adjust margin-top for button labels on smaller devices */
+        margin-left: 0; /* Reset margin-left for button labels on smaller devices */
+    }
+    
+    header {
+        margin-top: 60px; /* Adjust margin-top for header on smaller devices */
+        margin-left: 10px; /* Adjust margin-left for header on smaller devices */
+    }
+    
+    .img1 {
+        margin-left: 0; /* Reset margin-left for .img1 on smaller devices */
+        text-align: center; /* Center-align .img1 on smaller devices */
+    }
+    
+    .im {
+        margin-top: 10px; /* Adjust margin-top for .im on smaller devices */
+        margin-left: 0; /* Reset margin-left for .im on smaller devices */
+        text-align: center; /* Center-align .im on smaller devices */
+    }
+    
+    .name {
+        width: 90%; /* Adjust .name width for smaller devices */
+        margin: 20px auto; /* Center .name on smaller devices */
+        justify-content: center; /* Center .name items on smaller devices */
+        align-items: center; /* Center .name items on smaller devices */
+    }
+    
+    #err {
+        margin: 20px auto; /* Center #err on smaller devices */
+    }
+}
